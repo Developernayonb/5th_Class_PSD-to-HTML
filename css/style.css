@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Playfair Display', serif;
+    color: #626262;
+}
+/*========== Header Code Part CSS ==========*/
+.container{
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.logo{
+    width: 12%;
+    float: left;
+    margin-top: 25px;
+    
+}
+.logo img {
+    width: 100%;
+}
+.main_menu {
+    width: 70%;
+    float: right;
+}
+.main_menu ul {
+    float: right;
+}
+.main_menu ul li{
+    list-style: none;
+    float: left;
+}
+.main_menu ul li a{
+    display: block;
+    text-decoration: none;
+    padding: 35px 50px;
+    text-transform: uppercase;
+    color: #626262;
+    transition: .5s;
+}
+.main_menu ul li:last-child a{
+    padding-right: 0;
+}
+.main_menu ul li a:hover{
+    color: #000;
+}
+/*========== Banner Code Part CSS ==========*/
+.banner_content img{
+    width: 100%;
+}
+/*========== perfect Code Part CSS ==========*/
+.perfect{
+   padding: 60px 0; 
+}
+.container2{
+   width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.perfect_content h1{
+   font-weight: 400;
+    font-size: 30px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.perfect_content .text {
+    font-size: 14px;
+    line-height: 25px;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    margin-bottom: 40px;
+}
+.common{
+   font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+    color: #b4ad9e;
+    text-transform: uppercase;
+}
+/*========== blog Code Part CSS ==========*/
+.blog{
+    padding: 60px 0;
+}
+.blog2{
+    padding: 90px 0;
+}
+.thumbnail{
+    width: 47%;
+    float: left;
+    padding-bottom: 50px;
+}
+.thumbnail img{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.thumbnail:nth-child(even){
+    margin-left: 6%;
+}
+.thumbnail h1{
+    font-weight: 400;
+    font-size: 30px;
+    margin: 20px 0;
+}
+.thumbnail p:last-child{
+    font-size: 14px;
+    line-height: 24px;
+}
+/*========== newslater Code Part CSS ==========*/
+.newslater{
+   padding: 50px 0;
+    background-color: #f0f0f0;
+}
+.container4{
+    width: 60%;
+    margin: 0 auto;
+}
+.signup{
+    text-align: center;
+}
+.signup h1{
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+.for_form{
+    width: 350px;
+    position: relative;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+.for_form input{
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #000;
+    font-size: 18px;
+    width: 290px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 60px;
+}
+.for_form button{
+    border: none;
+    background: transparent;
+    position: absolute;
+    top: 10px;
+    right: 0;
+}
+/*========== Button Code Part CSS ==========*/
+.container3{
+    text-align: center;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.container3 button {
+    padding: 25px 70px;
+    font-size: 24px;
+    border: none;
+    border: 1px solid #626262;
+    background: transparent;
+    transition: .5s;
+    margin-bottom: 90px;
+}
+.container3 button:hover{
+    color: #fff;
+    background: #626262;
+    border: 1px solid #fff;
+}
+/*========== Footer Code Part CSS ==========*/
+.footer{
+    background: #f0f0f0;
+}
+.footer_content{
+    width: 30%;
+    float: left;
+}
+.footer_content ul {
+    padding: 41px 0;
+}
+.footer_content ul li {
+    display: inline;
+    color: #000;
+    font-size: 14px;
+    margin-right: 25px;
+}
+
+
+.footer_icon{
+    width: 17%;
+    float: right;
+}
+.footer_icon ul {
+    list-style: none;
+    padding: 45px 0;
+}
+
+.footer_icon ul li {
+    display: inline;
+}
+
+.footer_icon ul li a {
+    padding: 0;
+    font-size: 14px;
+    text-decoration: none;
+    color: #000;
+    padding: 0 10px;
+}
+.footer_icon ul li:last-child a{
+    padding-right: 0;
+}
